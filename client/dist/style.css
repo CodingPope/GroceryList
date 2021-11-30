@@ -4,6 +4,30 @@ body {
   color: seagreen;
 }
 
+a:link {
+  text-decoration: none;
+  color: seagreen;
+}
+
+a:visited {
+  text-decoration: none;
+  color: seagreen;
+}
+
+a:hover {
+  text-decoration: none;
+  color: seagreen;
+}
+
+a:active {
+  text-decoration: none;
+  color: seagreen;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
 #app {
   width: 50%;
   margin: auto;
@@ -14,7 +38,34 @@ ul {
   padding-left: 0px;
 }
 
+.grocery-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .groceries {
   margin: 10px;
   list-style-type: none;
+}
+
+.grocery {
+  display: flex;
+  height: 25px;
+  align-content: space-between;
+}
+
+.grocery-item {
+  /* flex          : 40%; */
+  vertical-align: middle;
+}
+
+.grocery-name {
+  text-align: left;
+  font-weight: bold;
+  flex: 40%;
+}
+
+.grocery-qty {
+  text-align: left;
+  flex: 40%;
 }

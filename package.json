@@ -2,12 +2,11 @@
   "name": "hackreactor-groceries",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
-    "react-dev": "webpack --config ./webpack.config.js --mode development -w",
     "start": "nodemon server/index.js"
   },
-  "author": "Beth Johnson",
+  "author": "Joe Pope",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.13",
